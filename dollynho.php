@@ -26,9 +26,7 @@ Dolly guarána, Dolly guarána
 Dolly guarána, Dolly guarána
 Dolly, Dolly, Dolly
 Dolly, Dolly, o melhor!
-Dolly!
-
-";
+Dolly!";
 
 	// Here we split it into lines
 	$lyrics = explode( "\n", $lyrics );
@@ -54,13 +52,17 @@ function dolly_css() {
 	echo "
 	<style type='text/css'>
 	#dolly {
-		float: $x;
-		padding-$x: 15px;
-		padding-top: 5px;		
-		margin: 0;
-		font-size: 11px;
-		color:#fff;
-		background:#25c738
+	float: $x;
+	padding-$x: 15px;
+	padding-top: 7px;
+    padding-left:30px;
+    adding-bottom:8px;
+    font-family:'Comic Sans', Arial, sans-serif;		
+	margin:0;
+	font-size:12px;
+    font-weight:bold;
+	color:#25c738;
+	background:#fff url(http://i.imgur.com/IEihyO0.png) no-repeat top left;
 	}
 	</style>
 	";
